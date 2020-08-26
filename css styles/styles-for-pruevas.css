@@ -1,0 +1,25 @@
+body{
+	background-color: #bbb;
+	font-family: cursive;
+}
+#big-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	border: 3px solid black;
+	background-color: #ffff00;
+}
+#blue{
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: #0ff;
+	text-align: center;	
+}
+#pa{
+	margin-top: 15px;
+}
