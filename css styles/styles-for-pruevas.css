@@ -1,7 +1,38 @@
 body{
-	background-color: #bbb;
-	font-family: cursive;
+	background-color: #bbbbbb;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/*estilos para HEADER inicio*/
+.just-cont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.container{
+	border: 1px solid #22266e;
+	background-color: #74aec7;
+	border-radius: 4px;
+	padding: 9px;
+	box-shadow: 9px 9px 12px 2px #000;
+}
+.container h1{
+	letter-spacing: 1px;
+	color: #222;
+	margin: 13px auto;
+}
+.container h1 span{
+	color: #0ff;
+}
+.link{
+	color: white;
+	letter-spacing: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link a{
+	color: white;
+}
+/* Estilos para HEADER final */
 #big-container{
 	margin-left: auto;
 	margin-right: auto;
@@ -21,5 +52,6 @@ body{
 	text-align: center;	
 }
 #pa{
+	font-family: cursive;
 	margin-top: 15px;
 }
