@@ -23,3 +23,20 @@ body{
 #pa{
 	margin-top: 15px;
 }
+.wrapper{
+	margin: 20px auto;
+	background-color: rgb(23, 83, 64);
+	border: 1px solid rgb(4, 47, 23);
+	border-radius: 4px;
+	border-left: none;
+	border-right: none;
+	padding: 8px;
+	width: 800px;
+	box-shadow: 0px 0px 9px 5px black;
+}
+.words{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+}
