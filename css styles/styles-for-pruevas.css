@@ -33,6 +33,27 @@ body{
 	color: white;
 }
 /* Estilos para HEADER final */
+/*Main content*/
+#main-content{
+	margin-top: 40px;
+}
+.text{
+	width: 599px;
+	margin: 0 auto;
+	background-color: #999;
+	box-shadow: 0px 0px 5px 2px #222;
+	padding: 7px;
+	border-radius: 2px;
+}
+p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span.bold{
+	font-weight: bold;
+}
+span.italic{
+	font-style: italic;
+}
 #big-container{
 	margin: 70px auto;
 	width: 20%;
