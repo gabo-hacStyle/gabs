@@ -111,3 +111,19 @@ span.italic{
 	color: white;
 	letter-spacing: 1px;
 }
+/* Responsive footer*/
+@media (max-width: 405px){
+	.wrapper{
+		width: 97%;
+		margin: 50px auto;
+		font-size: .99em;
+		padding: 5px;
+		box-shadow: 0px 0px 15px 2px black;
+		border:
+		1px solid rgb(4, 47, 23);
+	}
+	}
+	.words{
+		letter-spacing: .9px;
+	}
+}
