@@ -93,6 +93,30 @@ span.italic{
 	font-family: cursive;
 	margin-top: 15px;
 }
+/* Responsive para el main-content*/
+@media(max-width: 403px){
+	#main-content{
+		display: block;
+	}
+	.text{
+		width: 93%;
+		margin: 0 auto;
+		padding: 2px 2px 2px 6px;
+	}
+	.text div p{
+		margin: 9px 0;
+	}
+	#big-container{
+		width: 90%;
+		margin: 60px auto;
+		height: 85px;
+	}
+	#blue{	
+		width: 70%;
+		margin: 15px auto;
+		height: fit-content;
+	}
+}
 /* Estilos footer*/
 .wrapper{
 	margin: 50px auto;
