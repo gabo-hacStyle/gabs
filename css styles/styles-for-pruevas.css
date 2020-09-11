@@ -33,6 +33,24 @@ body{
 	color: white;
 }
 /* Estilos para HEADER final */
+/*Responsive para el header*/
+@media (max-width: 405px){
+	.just-cont{
+		display: block;
+		width: 97%;
+		margin: 6px auto;
+	}
+	.container{
+		padding: 0px 9px;
+	}
+	.container h1{
+		font-size: 1.6em;
+		margin-bottom: 4px;
+	}
+	.link{
+		padding-bottom: 3px;
+	}
+}
 /*Main content*/
 #main-content{
 	margin-top: 40px;
