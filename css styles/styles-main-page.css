@@ -1,3 +1,42 @@
+/** Estilos header**/
+.hero{
+    text-align: center;
+    color: #223;
+    text-transform: uppercase; 
+}
+#main-title{
+  
+}
+
+/** Styles de el main region **/
 .tiles{
     display: inline-block;
+    margin: 50px auto;
+}
+.individual-tiles{
+    display: flex;
+    border: 1px solid #223;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 5px #223;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #779;
+}
+a .titulo{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.9em;
+    padding: 5px;
+}
+/** Estilos footer**/
+
+.wrapper-footer{
+    border: 1px solid blue;
+    padding: 7px;
+    background-color: #223;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    height: 300px;
 }
