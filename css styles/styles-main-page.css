@@ -17,7 +17,7 @@
     display: flex;
     border: 1px solid #223;
     border-radius: 5px;
-    box-shadow: 5px 5px 30px 5px #223;
+    box-shadow: 1px 1px 15px 2px #223;
     overflow: hidden;
 }
 a{
