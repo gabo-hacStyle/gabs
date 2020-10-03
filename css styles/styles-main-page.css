@@ -1,4 +1,8 @@
 /** Estilos header**/
+a.nav-links:hover{
+    text-decoration: underline;
+    color: #47476b;
+}
 .hero{
     text-align: center;
     color: #223;
@@ -19,6 +23,10 @@
     border-radius: 5px;
     box-shadow: 1px 1px 15px 2px #223;
     overflow: hidden;
+}
+.individual-tiles:hover{
+    border: 2px solid #b87830;
+    box-shadow: 1px 1px 30px 5px #223;
 }
 a{
     text-decoration: none;
