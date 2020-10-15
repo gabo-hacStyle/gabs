@@ -34,7 +34,7 @@ a{
 }
 a .titulo{
     text-align: center;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.9em;
     padding: 5px;
 }
@@ -45,6 +45,9 @@ a .titulo{
     padding: 7px;
     background-color: #223;
     color: white;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     height: 300px;
+}
+.centered-content{
+    text-align: center;
 }
