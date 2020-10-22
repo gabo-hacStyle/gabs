@@ -59,3 +59,16 @@ a .titulo{
 .centered-content{
     text-align: center;
 }
+@media(max-width: 403px){
+    .individual-tiles{
+        width: 96%;
+        margin: 12px auto;
+    }
+    a .titulo{
+        padding: 2px;
+    }
+    .individual-tiles a img{
+        height: 150px;
+        width: 100%;
+    }
+}
