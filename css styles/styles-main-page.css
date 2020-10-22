@@ -15,7 +15,10 @@ a.nav-links:hover{
 /** Styles de el main region **/
 .tiles{
     display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     margin: 50px auto;
+
 }
 .individual-tiles{
     display: flex;
@@ -23,9 +26,14 @@ a.nav-links:hover{
     border-radius: 5px;
     box-shadow: 1px 1px 15px 2px #223;
     overflow: hidden;
+    margin: 10px 18px;
+    flex-shrink: 0;
+}
+#tristeza #quejas{
+    margin-left: 0;
 }
 .individual-tiles:hover{
-    border: 2px solid #b87830;
+    border: 1px solid #b7eb0f;
     box-shadow: 1px 1px 30px 5px #223;
 }
 a{
