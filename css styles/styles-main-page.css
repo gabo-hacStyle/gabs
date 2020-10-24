@@ -71,4 +71,9 @@ a .titulo{
         height: 150px;
         width: 100%;
     }
+    .individual-tiles:active{
+        border: 1px solid #b7eb0f;
+        box-shadow: 1px 1px 30px 5px #223;  
+    }
+
 }
