@@ -59,7 +59,7 @@ a .titulo{
 .centered-content{
     text-align: center;
 }
-@media(max-width: 376px){
+@media(max-width: 377px){
     .individual-tiles{
         width: 96%;
         margin: 12px auto;
@@ -77,7 +77,7 @@ a .titulo{
     }
 
 }
-@media(min-width: 377px) and (max-width: 452px){
+@media(min-width: 377px) and (max-width: 453px){
     .individual-tiles{
         width: 96%;
         margin: 14px auto;
@@ -87,7 +87,7 @@ a .titulo{
         width: 100%;
     }
 }
-@media(min-width: 453px) and (max-width: 680px){
+@media(min-width: 453px) and (max-width: 681px){
     .tiles{
         margin:20px auto;
     }
@@ -106,7 +106,7 @@ a .titulo{
         margin-left: 5px;
     }
 }
-@media(min-width: 681px) and (max-width: 740px){
+@media(min-width: 681px) and (max-width: 741px){
     .tiles{
         margin:20px auto;
     }
@@ -133,9 +133,12 @@ a .titulo{
     .individual-tiles a img{
        height: 147px;
        width: 100%;
-   } 
+   }
+   .tiles > #victoria{
+    margin-left: 16px;
 }
-@media(min-width: 863px) and (max-width: 951px){
+}
+@media(min-width: 862px) and (max-width: 951px){
  .individual-tiles{
      width: 32%;
      margin: 12px auto;
