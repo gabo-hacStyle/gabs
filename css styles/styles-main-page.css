@@ -59,7 +59,7 @@ a .titulo{
 .centered-content{
     text-align: center;
 }
-@media(max-width: 403px){
+@media(max-width: 376px){
     .individual-tiles{
         width: 96%;
         margin: 12px auto;
@@ -76,4 +76,78 @@ a .titulo{
         box-shadow: 1px 1px 30px 5px #223;  
     }
 
+}
+@media(min-width: 377px) and (max-width: 452px){
+    .individual-tiles{
+        width: 96%;
+        margin: 14px auto;
+    }
+    .individual-tiles a img{
+        height: 180px;
+        width: 100%;
+    }
+}
+@media(min-width: 453px) and (max-width: 680px){
+    .tiles{
+        margin:20px auto;
+    }
+    .individual-tiles{
+        width: 48%;
+        margin: 14px auto;
+    }
+    .individual-tiles a img{
+        height: 130px;
+        width: 100%;
+    }
+    a .titulo{
+        font-size: 1.3675em;
+    }
+    .tiles > #victoria{
+        margin-left: 5px;
+    }
+}
+@media(min-width: 681px) and (max-width: 740px){
+    .tiles{
+        margin:20px auto;
+    }
+    .individual-tiles{
+        width: 45%;
+        margin: 12px auto;
+    }
+    .individual-tiles a img{
+        height: 140px;
+        width: 100%;
+    }
+    a .titulo{
+        font-size: 1.695em;
+    }
+    .tiles > #victoria{
+        margin-left: 16px;
+    }
+}
+@media(min-width: 741px) and (max-width: 862px){
+    .individual-tiles{
+        width: 45%;
+        margin: 12px auto;
+    }
+    .individual-tiles a img{
+       height: 147px;
+       width: 100%;
+   } 
+}
+@media(min-width: 863px) and (max-width: 951px){
+ .individual-tiles{
+     width: 32%;
+     margin: 12px auto;
+ }
+ .individual-tiles a img{
+     height: 129px;
+     width: 100%;
+ }
+ .individual-tiles .titulo{
+     font-size: 1.77em;
+ }
+  #quejas, #victoria{
+     margin: 12px 4.87px;
+ }
 }
