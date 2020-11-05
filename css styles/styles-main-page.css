@@ -65,7 +65,6 @@ a .titulo{
 }
 /**Estilos repsosive**/
 @media(max-width: 377px){
-
     .individual-tiles{
         width: 96%;
         margin: 12px auto;
@@ -81,8 +80,6 @@ a .titulo{
         border: 1px solid #b7eb0f;
         box-shadow: 1px 1px 30px 5px #223;  
     }
-
-<<<<<<< HEAD
 }
 @media(min-width: 377px) and (max-width: 453px){
     .individual-tiles{
