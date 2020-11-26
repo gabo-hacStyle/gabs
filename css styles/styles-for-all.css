@@ -7,7 +7,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 25px;
+	margin-bottom: 21px;
 }
 .container{
 	border: 1px solid #22266e;
@@ -17,9 +17,10 @@ body{
 	box-shadow: 9px 9px 12px 2px #000;
 }
 .container h1{
-	letter-spacing: 1px;
+	font-size: 2.19em;
+	letter-spacing: 2.2px;
 	color: #222;
-	margin: 13px auto;
+	margin: 8px auto 3px;
 }
 .container h1 span{
 	color: #0ff;
