@@ -55,7 +55,7 @@ body{
 	}
 }
 /*Main content*/
-#main-content{
+#main-content, .main-content{
 	margin-top: 40px;
 }
 .text{
@@ -96,8 +96,9 @@ span.italic{
 }
 /* Responsive para el main-content*/
 @media(max-width: 403px){
-	#main-content{
+	#main-content, .main-content{
 		display: block;
+		margin-top: 0;
 	}
 	.text{
 		width: 93%;
