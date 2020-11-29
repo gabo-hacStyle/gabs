@@ -40,12 +40,14 @@ body{
 		display: block;
 		width: 97%;
 		margin: 6px auto;
+		margin-bottom: 29px;
 	}
 	.container{
-		padding: 0px 9px;
+		padding: 1px 9px;
 	}
 	.container h1{
-		font-size: 1.6em;
+		letter-spacing: 1.2px;
+		font-size: 1.75em;
 		margin-bottom: 4px;
 	}
 	.link{
@@ -53,7 +55,7 @@ body{
 	}
 }
 /*Main content*/
-#main-content{
+#main-content, .main-content{
 	margin-top: 40px;
 }
 .text{
@@ -94,8 +96,9 @@ span.italic{
 }
 /* Responsive para el main-content*/
 @media(max-width: 403px){
-	#main-content{
+	#main-content, .main-content{
 		display: block;
+		margin-top: 0;
 	}
 	.text{
 		width: 93%;
