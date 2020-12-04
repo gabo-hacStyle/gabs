@@ -9,7 +9,10 @@ a.nav-links:hover{
     text-transform: uppercase; 
 }
 #main-title{
-  
+    letter-spacing: 1.22px;
+}
+h3{
+    margin: 2px;
 }
 
 /** Styles de el main region **/
@@ -59,6 +62,7 @@ a .titulo{
 .centered-content{
     text-align: center;
 }
+/**Estilos repsosive**/
 @media(max-width: 377px){
     .individual-tiles{
         width: 96%;
@@ -75,7 +79,6 @@ a .titulo{
         border: 1px solid #b7eb0f;
         box-shadow: 1px 1px 30px 5px #223;  
     }
-
 }
 @media(min-width: 377px) and (max-width: 453px){
     .individual-tiles{
