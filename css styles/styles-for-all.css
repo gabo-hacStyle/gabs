@@ -10,7 +10,7 @@ header, footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 25px;
+	margin-bottom: 21px;
 }
 .container{
 	border: 1px solid #22266e;
@@ -20,9 +20,10 @@ header, footer{
 	box-shadow: 9px 9px 12px 2px #000;
 }
 .container h1{
-	letter-spacing: 1px;
+	font-size: 2.19em;
+	letter-spacing: 2.2px;
 	color: #222;
-	margin: 13px auto;
+	margin: 8px auto 3px;
 }
 .container h1 span{
 	color: #0ff;
@@ -42,12 +43,14 @@ header, footer{
 		display: block;
 		width: 97%;
 		margin: 6px auto;
+		margin-bottom: 29px;
 	}
 	.container{
-		padding: 0px 9px;
+		padding: 1px 9px;
 	}
 	.container h1{
-		font-size: 1.6em;
+		letter-spacing: 1.2px;
+		font-size: 1.75em;
 		margin-bottom: 4px;
 	}
 	.link{
@@ -55,7 +58,7 @@ header, footer{
 	}
 }
 /*Main content*/
-#main-content{
+#main-content, .main-content{
 	margin-top: 40px;
 }
 .text{
@@ -98,8 +101,9 @@ span.italic{
 }
 /* Responsive para el main-content*/
 @media(max-width: 403px){
-	#main-content{
+	#main-content, .main-content{
 		display: block;
+		margin-top: 0;
 	}
 	.text{
 		width: 93%;
