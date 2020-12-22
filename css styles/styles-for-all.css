@@ -1,8 +1,11 @@
 body{
 	background-color: #bbbbbb;
-	font-family: 'Anton', sans-serif;
+	font-family: 'Palanquin', sans-serif;
 }
 /*estilos para HEADER inicio*/
+header, footer{
+	font-family: 'Anton', sans-serif;
+}
 .just-cont{
 	display: flex;
 	flex-direction: column;
@@ -65,7 +68,9 @@ body{
 	box-shadow: 0px 0px 5px 2px #222;
 	padding: 7px;
 	border-radius: 2px;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 1.25em;
 }
 span.bold{
 	font-weight: bold;
