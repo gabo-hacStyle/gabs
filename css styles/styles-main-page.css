@@ -4,15 +4,33 @@ a.nav-links:hover{
     color: #47476b;
 }
 .hero{
-    text-align: center;
+    display: flex;
     color: #223;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    background-color: #ddd;
+    letter-spacing: 2.22px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero img{
+    border-radius: 3px;
+    overflow: hidden;
+}
+.titles{
+    background: url(https://www.webnode.es/blog/files/2016/10/Blog-intro.jpg);
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 10px;
 }
 #main-title{
-    letter-spacing: 1.22px;
+    margin: 2px;
+    font-size: 5em;
 }
 h3{
-    margin: 2px;
+    margin: 3px;
+    font-size: 2em;
 }
 
 /** Styles de el main region **/
