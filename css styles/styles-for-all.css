@@ -73,7 +73,7 @@ header, footer{
 	font-size: 1.25em;
 }
 span.bold{
-	font-weight: bold;
+	color: rgb(42, 92, 25);
 }
 span.italic{
 	font-style: italic;
