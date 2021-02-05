@@ -1,0 +1,72 @@
+/**Estilos main-area*/
+.main{
+    margin: 0 auto;
+    width: 75%;
+    background: rgb(251, 259, 256);
+    box-shadow: 0px 0px 2px 0px grey;
+    overflow: hidden;
+    padding: 7px;
+    font-family: 'Varela Round', sans-serif;
+}
+.song{
+    margin: 14px auto;
+    width: 90%;
+    padding: 14px;
+}
+.normal{
+    width: 47%;
+    float: left;
+    border-right: 2px dashed rgb(57, 58, 58);
+    margin-bottom: 15px;
+}
+.this-version{
+    float: right;
+    margin-bottom: 15px;
+}
+
+
+/**Estilos para información de canción y artista**/
+.song-info{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 2px auto;
+    padding: 14px;
+}
+.song-info #main-info {
+    width: 80%;
+    padding: 3px;
+    display: flex;
+}
+#main-info img{
+    width: 9%;
+    height: 46px;
+    border-radius: 4px;
+    overflow: hidden; 
+}
+.artist{
+    margin: 0 auto;
+    width: 86%;
+}
+.artist p{
+    margin: 0;
+}
+.artist h1{
+    margin: 0;
+    display: inline-block;
+}
+div#link{
+    float: right;
+    border: 1px solid rgb(103, 123, 159);
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgb(143, 163, 199);
+}
+div#link a{
+    color: black;
+    text-decoration: none;
+}
+div#link:hover{
+    box-shadow: 0 0 1px 1px black;
+}
+/**Estilos */
