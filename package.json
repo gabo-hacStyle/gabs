@@ -1,0 +1,23 @@
+{
+  "name": "gabs",
+  "version": "1.0.0",
+  "description": "This is the main page of what will become a great platform",
+  "main": "index.html)",
+  "dependencies": {
+    "surge": "^0.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabo-hacStyle/gabs.git"
+  },
+  "author": "GABS Gabriel\u001b[1;5D\u001b[1;5D\u001b[D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D - Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabo-hacStyle/gabs/issues"
+  },
+  "homepage": "https://github.com/gabo-hacStyle/gabs#readme"
+}
